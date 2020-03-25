@@ -1,0 +1,17 @@
+[package]
+name = "jagged"
+description = "jagged provides an API to read data entries from JAG archives."
+version = "0.1.0"
+authors = ["Zack Penn <zack@sysdevs.org>"]
+edition = "2018"
+keywords = ["runescape", "runescape classic", "rsc", "jag"]
+license = "GPL-2.0-only"
+license-file = "LICENSE"
+repository = "https://github.com/hikilaka/jagged"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes = "0.5"
+bzip2 = "0.3.3"
