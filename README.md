@@ -1,5 +1,9 @@
 # Jagged
-Jagged provides an API to read data entries from JAG archives.
+Jagged provides an API to read/write data entries to/from JAG archives.
+
+## Documentation
+Documentation is hosted at [docs.rs](https://docs.rs/jagged/0.1.0/jagged/).
+It is somewhat incomplete as the library is still unstable.
 
 ## Example
 ```rust
@@ -12,9 +16,8 @@ fn main() -> Result<()> {
     let data: Vec<u8> = include_bytes!("some_file").to_vec();
     let output_path = Path::new("archive.jag")?;
 
-    assert_eq!(archive.len(), 0);
-
     let _ = archive.insert("some_name", data);
+
     archive.save(output_path)?;
 }
 ```
