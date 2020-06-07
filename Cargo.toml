@@ -6,7 +6,6 @@ authors = ["Zack Penn <zack@sysdevs.org>"]
 edition = "2018"
 keywords = ["runescape", "rsc", "jag"]
 license = "GPL-2.0-only"
-license-file = "LICENSE"
 repository = "https://github.com/hikilaka/jagged"
 readme = "README.md"
 
@@ -15,3 +14,4 @@ readme = "README.md"
 [dependencies]
 bytes = "0.5"
 bzip2 = "0.3.3"
+anyhow = "1.0.31"
