@@ -1,7 +1,7 @@
 [package]
 name = "jagged"
 description = "jagged provides an API to read data entries from JAG archives."
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Zack Penn <zack@sysdevs.org>"]
 edition = "2018"
 keywords = ["runescape", "rsc", "jag"]
